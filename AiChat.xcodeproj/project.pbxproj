@@ -8,13 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		68514ABA2D2B787200E127DD /* AiChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AB92D2B787200E127DD /* AiChatApp.swift */; };
-		68514ABC2D2B787200E127DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514ABB2D2B787200E127DD /* ContentView.swift */; };
-		68514ABE2D2B787200E127DD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514ABD2D2B787200E127DD /* Item.swift */; };
 		68514AC02D2B787400E127DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68514ABF2D2B787400E127DD /* Assets.xcassets */; };
 		68514AC42D2B787400E127DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68514AC32D2B787400E127DD /* Preview Assets.xcassets */; };
 		68514ACE2D2B787400E127DD /* AiChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514ACD2D2B787400E127DD /* AiChatTests.swift */; };
 		68514AD82D2B787400E127DD /* AiChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AD72D2B787400E127DD /* AiChatUITests.swift */; };
 		68514ADA2D2B787400E127DD /* AiChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AD92D2B787400E127DD /* AiChatUITestsLaunchTests.swift */; };
+		68514AEE2D2B79CC00E127DD /* SessionListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AE72D2B79CC00E127DD /* SessionListModel.swift */; };
+		68514AEF2D2B79CC00E127DD /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AE82D2B79CC00E127DD /* ColorExtension.swift */; };
+		68514AF02D2B79CC00E127DD /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AE92D2B79CC00E127DD /* Fetch.swift */; };
+		68514AF12D2B79CC00E127DD /* DeepseekHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AEA2D2B79CC00E127DD /* DeepseekHelper.swift */; };
+		68514AF22D2B79CC00E127DD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AEC2D2B79CC00E127DD /* Message.swift */; };
+		68514AF32D2B79CC00E127DD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AED2D2B79CC00E127DD /* User.swift */; };
+		68514AF82D2B79DA00E127DD /* ContentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AF52D2B79DA00E127DD /* ContentMessageView.swift */; };
+		68514AF92D2B79DA00E127DD /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AF62D2B79DA00E127DD /* ChatRoom.swift */; };
+		68514AFA2D2B79DA00E127DD /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AF72D2B79DA00E127DD /* MessageView.swift */; };
+		68514AFD2D2BB09700E127DD /* SessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AFC2D2BB09700E127DD /* SessionList.swift */; };
+		68514AFF2D2D003F00E127DD /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AFE2D2D003E00E127DD /* SessionModel.swift */; };
+		6866A19A2D3E2D0500BFE036 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AF72D2B79DA00E127DD /* MessageView.swift */; };
+		6866A19B2D3E2D0500BFE036 /* SessionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AA47C82D3656A700BBF9EF /* SessionRow.swift */; };
+		6866A19C2D3E2D0500BFE036 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AE92D2B79CC00E127DD /* Fetch.swift */; };
+		6866A19D2D3E2D0500BFE036 /* DeepseekHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AEA2D2B79CC00E127DD /* DeepseekHelper.swift */; };
+		6866A19E2D3E2D0500BFE036 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AF62D2B79DA00E127DD /* ChatRoom.swift */; };
+		6866A19F2D3E2D0500BFE036 /* AiChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AB92D2B787200E127DD /* AiChatApp.swift */; };
+		6866A1A02D3E2D0500BFE036 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AA47C32D34F12300BBF9EF /* DateHelper.swift */; };
+		6866A1A12D3E2D0500BFE036 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AED2D2B79CC00E127DD /* User.swift */; };
+		6866A1A22D3E2D0500BFE036 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AEC2D2B79CC00E127DD /* Message.swift */; };
+		6866A1A32D3E2D0500BFE036 /* SessionListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AE72D2B79CC00E127DD /* SessionListModel.swift */; };
+		6866A1A42D3E2D0500BFE036 /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AFE2D2D003E00E127DD /* SessionModel.swift */; };
+		6866A1A52D3E2D0500BFE036 /* ContentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AF52D2B79DA00E127DD /* ContentMessageView.swift */; };
+		6866A1A62D3E2D0500BFE036 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68514AE82D2B79CC00E127DD /* ColorExtension.swift */; };
+		6866A1AA2D3E2D0500BFE036 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68514AC32D2B787400E127DD /* Preview Assets.xcassets */; };
+		6866A1AB2D3E2D0500BFE036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68514ABF2D2B787400E127DD /* Assets.xcassets */; };
+		6866A1B02D3E2D4900BFE036 /* SessionList_MacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6866A1852D3E2ACD00BFE036 /* SessionList_MacOS.swift */; };
+		68AA47C42D34F12300BBF9EF /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AA47C32D34F12300BBF9EF /* DateHelper.swift */; };
+		68AA47C92D3656A700BBF9EF /* SessionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AA47C82D3656A700BBF9EF /* SessionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +64,6 @@
 /* Begin PBXFileReference section */
 		68514AB62D2B787200E127DD /* AiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68514AB92D2B787200E127DD /* AiChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiChatApp.swift; sourceTree = "<group>"; };
-		68514ABB2D2B787200E127DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		68514ABD2D2B787200E127DD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		68514ABF2D2B787400E127DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68514AC12D2B787400E127DD /* AiChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AiChat.entitlements; sourceTree = "<group>"; };
 		68514AC32D2B787400E127DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +72,21 @@
 		68514AD32D2B787400E127DD /* AiChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68514AD72D2B787400E127DD /* AiChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiChatUITests.swift; sourceTree = "<group>"; };
 		68514AD92D2B787400E127DD /* AiChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68514AE72D2B79CC00E127DD /* SessionListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionListModel.swift; sourceTree = "<group>"; };
+		68514AE82D2B79CC00E127DD /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		68514AE92D2B79CC00E127DD /* Fetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetch.swift; sourceTree = "<group>"; };
+		68514AEA2D2B79CC00E127DD /* DeepseekHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepseekHelper.swift; sourceTree = "<group>"; };
+		68514AEC2D2B79CC00E127DD /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		68514AED2D2B79CC00E127DD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		68514AF52D2B79DA00E127DD /* ContentMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentMessageView.swift; sourceTree = "<group>"; };
+		68514AF62D2B79DA00E127DD /* ChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
+		68514AF72D2B79DA00E127DD /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		68514AFC2D2BB09700E127DD /* SessionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionList.swift; sourceTree = "<group>"; };
+		68514AFE2D2D003E00E127DD /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
+		6866A1852D3E2ACD00BFE036 /* SessionList_MacOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionList_MacOS.swift; sourceTree = "<group>"; };
+		6866A1AF2D3E2D0500BFE036 /* AiChat_MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiChat_MacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68AA47C32D34F12300BBF9EF /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		68AA47C82D3656A700BBF9EF /* SessionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +105,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		68514AD02D2B787400E127DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6866A1A82D3E2D0500BFE036 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,6 +137,7 @@
 				68514AB62D2B787200E127DD /* AiChat.app */,
 				68514AC92D2B787400E127DD /* AiChatTests.xctest */,
 				68514AD32D2B787400E127DD /* AiChatUITests.xctest */,
+				6866A1AF2D3E2D0500BFE036 /* AiChat_MacOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +145,10 @@
 		68514AB82D2B787200E127DD /* AiChat */ = {
 			isa = PBXGroup;
 			children = (
+				68514AFB2D2BB05600E127DD /* Page */,
+				68514AE62D2B79CC00E127DD /* Hepler */,
+				68514AEB2D2B79CC00E127DD /* Models */,
 				68514AB92D2B787200E127DD /* AiChatApp.swift */,
-				68514ABB2D2B787200E127DD /* ContentView.swift */,
-				68514ABD2D2B787200E127DD /* Item.swift */,
 				68514ABF2D2B787400E127DD /* Assets.xcassets */,
 				68514AC12D2B787400E127DD /* AiChat.entitlements */,
 				68514AC22D2B787400E127DD /* Preview Content */,
@@ -130,6 +179,57 @@
 				68514AD92D2B787400E127DD /* AiChatUITestsLaunchTests.swift */,
 			);
 			path = AiChatUITests;
+			sourceTree = "<group>";
+		};
+		68514AE62D2B79CC00E127DD /* Hepler */ = {
+			isa = PBXGroup;
+			children = (
+				68514AE82D2B79CC00E127DD /* ColorExtension.swift */,
+				68514AE92D2B79CC00E127DD /* Fetch.swift */,
+				68514AEA2D2B79CC00E127DD /* DeepseekHelper.swift */,
+				68AA47C32D34F12300BBF9EF /* DateHelper.swift */,
+			);
+			path = Hepler;
+			sourceTree = "<group>";
+		};
+		68514AEB2D2B79CC00E127DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68514AEC2D2B79CC00E127DD /* Message.swift */,
+				68514AED2D2B79CC00E127DD /* User.swift */,
+				68514AFE2D2D003E00E127DD /* SessionModel.swift */,
+				68514AE72D2B79CC00E127DD /* SessionListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68514AFB2D2BB05600E127DD /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				68AA47CB2D36582B00BBF9EF /* ChatRoom */,
+				68AA47C52D36566A00BBF9EF /* SessionList */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		68AA47C52D36566A00BBF9EF /* SessionList */ = {
+			isa = PBXGroup;
+			children = (
+				68514AFC2D2BB09700E127DD /* SessionList.swift */,
+				68AA47C82D3656A700BBF9EF /* SessionRow.swift */,
+				6866A1852D3E2ACD00BFE036 /* SessionList_MacOS.swift */,
+			);
+			path = SessionList;
+			sourceTree = "<group>";
+		};
+		68AA47CB2D36582B00BBF9EF /* ChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				68514AF62D2B79DA00E127DD /* ChatRoom.swift */,
+				68514AF72D2B79DA00E127DD /* MessageView.swift */,
+				68514AF52D2B79DA00E127DD /* ContentMessageView.swift */,
+			);
+			path = ChatRoom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +288,23 @@
 			productReference = 68514AD32D2B787400E127DD /* AiChatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6866A1982D3E2D0500BFE036 /* AiChat_MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6866A1AC2D3E2D0500BFE036 /* Build configuration list for PBXNativeTarget "AiChat_MacOS" */;
+			buildPhases = (
+				6866A1992D3E2D0500BFE036 /* Sources */,
+				6866A1A82D3E2D0500BFE036 /* Frameworks */,
+				6866A1A92D3E2D0500BFE036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AiChat_MacOS;
+			productName = AiChat;
+			productReference = 6866A1AF2D3E2D0500BFE036 /* AiChat_MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,6 +342,7 @@
 			projectRoot = "";
 			targets = (
 				68514AB52D2B787200E127DD /* AiChat */,
+				6866A1982D3E2D0500BFE036 /* AiChat_MacOS */,
 				68514AC82D2B787400E127DD /* AiChatTests */,
 				68514AD22D2B787400E127DD /* AiChatUITests */,
 			);
@@ -255,6 +373,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6866A1A92D3E2D0500BFE036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6866A1AA2D3E2D0500BFE036 /* Preview Assets.xcassets in Resources */,
+				6866A1AB2D3E2D0500BFE036 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,9 +389,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68514ABC2D2B787200E127DD /* ContentView.swift in Sources */,
-				68514ABE2D2B787200E127DD /* Item.swift in Sources */,
+				68514AFA2D2B79DA00E127DD /* MessageView.swift in Sources */,
+				68AA47C92D3656A700BBF9EF /* SessionRow.swift in Sources */,
+				68514AF02D2B79CC00E127DD /* Fetch.swift in Sources */,
+				68514AF12D2B79CC00E127DD /* DeepseekHelper.swift in Sources */,
+				68514AF92D2B79DA00E127DD /* ChatRoom.swift in Sources */,
 				68514ABA2D2B787200E127DD /* AiChatApp.swift in Sources */,
+				68AA47C42D34F12300BBF9EF /* DateHelper.swift in Sources */,
+				68514AF32D2B79CC00E127DD /* User.swift in Sources */,
+				68514AF22D2B79CC00E127DD /* Message.swift in Sources */,
+				68514AEE2D2B79CC00E127DD /* SessionListModel.swift in Sources */,
+				68514AFF2D2D003F00E127DD /* SessionModel.swift in Sources */,
+				68514AF82D2B79DA00E127DD /* ContentMessageView.swift in Sources */,
+				68514AEF2D2B79CC00E127DD /* ColorExtension.swift in Sources */,
+				68514AFD2D2BB09700E127DD /* SessionList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +420,27 @@
 			files = (
 				68514ADA2D2B787400E127DD /* AiChatUITestsLaunchTests.swift in Sources */,
 				68514AD82D2B787400E127DD /* AiChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6866A1992D3E2D0500BFE036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6866A19A2D3E2D0500BFE036 /* MessageView.swift in Sources */,
+				6866A19B2D3E2D0500BFE036 /* SessionRow.swift in Sources */,
+				6866A19C2D3E2D0500BFE036 /* Fetch.swift in Sources */,
+				6866A19D2D3E2D0500BFE036 /* DeepseekHelper.swift in Sources */,
+				6866A19E2D3E2D0500BFE036 /* ChatRoom.swift in Sources */,
+				6866A19F2D3E2D0500BFE036 /* AiChatApp.swift in Sources */,
+				6866A1A02D3E2D0500BFE036 /* DateHelper.swift in Sources */,
+				6866A1A12D3E2D0500BFE036 /* User.swift in Sources */,
+				6866A1A22D3E2D0500BFE036 /* Message.swift in Sources */,
+				6866A1A32D3E2D0500BFE036 /* SessionListModel.swift in Sources */,
+				6866A1A42D3E2D0500BFE036 /* SessionModel.swift in Sources */,
+				6866A1A52D3E2D0500BFE036 /* ContentMessageView.swift in Sources */,
+				6866A1B02D3E2D4900BFE036 /* SessionList_MacOS.swift in Sources */,
+				6866A1A62D3E2D0500BFE036 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,13 +580,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AiChat/AiChat.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AiChat/Preview Content\"";
-				DEVELOPMENT_TEAM = 45NC9P549C;
+				DEVELOPMENT_TEAM = T6E4CX2R5W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DeepseekV3 Ai";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -438,15 +599,16 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = roy.chen.AiChat;
+				PRODUCT_BUNDLE_IDENTIFIER = godot.aichat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,13 +621,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AiChat/AiChat.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AiChat/Preview Content\"";
-				DEVELOPMENT_TEAM = 45NC9P549C;
+				DEVELOPMENT_TEAM = T6E4CX2R5W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DeepseekV3 Ai";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -476,15 +640,16 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = roy.chen.AiChat;
+				PRODUCT_BUNDLE_IDENTIFIER = godot.aichat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -581,6 +746,86 @@
 			};
 			name = Release;
 		};
+		6866A1AD2D3E2D0500BFE036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AiChat/AiChat.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AiChat/Preview Content\"";
+				DEVELOPMENT_TEAM = T6E4CX2R5W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DeepseekV3 Ai";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = godot.aichat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6866A1AE2D3E2D0500BFE036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AiChat/AiChat.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AiChat/Preview Content\"";
+				DEVELOPMENT_TEAM = T6E4CX2R5W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DeepseekV3 Ai";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = godot.aichat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -616,6 +861,15 @@
 			buildConfigurations = (
 				68514AE42D2B787400E127DD /* Debug */,
 				68514AE52D2B787400E127DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6866A1AC2D3E2D0500BFE036 /* Build configuration list for PBXNativeTarget "AiChat_MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6866A1AD2D3E2D0500BFE036 /* Debug */,
+				6866A1AE2D3E2D0500BFE036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
